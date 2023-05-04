@@ -295,7 +295,6 @@ a {
 }
 
 .portfolio-thumb {
-  position: relative;
   overflow: hidden;
 }
 
@@ -459,6 +458,8 @@ a {
 }
 .header-text.active {
   color: var(--background-button);
+    transition:color 250ms cubic-bezier(0.4, 0, 0.2, 1) ;
+
 }
 
 .nav-content {
@@ -574,6 +575,8 @@ a {
 }
 
 .flex-portfolio {
+  position: relative;
+  color: var(--background-button)
   display: block;
   transition: box-shadow 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
