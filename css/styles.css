@@ -455,6 +455,7 @@ a {
   border-radius: 2px;
   display: block;
   bottom: -1px;
+  background-color: var(--background-button);
 }
 
 .header-text.active::after {
